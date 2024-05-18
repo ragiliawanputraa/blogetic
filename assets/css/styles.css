@@ -247,6 +247,7 @@ a {
 }
 .about__img img {
   width: 200px;
+  height: auto;
   border-radius: 0.5rem;
 }
 
