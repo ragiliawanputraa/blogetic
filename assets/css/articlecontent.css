@@ -1,12 +1,27 @@
 /* Preformatted text styling */
-pre, p {
-    margin: var(--header-height) 0 0 0;
+pre { 
+    text-align: justify;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    max-width: 100%;
+    margin: var(--mb-2) 0;
     font-family: var(--body-font);
-    font-size: var(--normal-font-size);
+    font-size: large;
     color: var(--second-color);
-    padding: 1rem;
-    white-space: pre-wrap; /* Wrap lines to prevent overflow */
-    overflow-x: auto;      /* Add horizontal scrolling if needed */
-    max-width: 100%;       /* Ensure it doesn't exceed the screen width */
-    box-sizing: border-box; /* Include padding and border in the element's total width */
+    line-height: 1.6;
+}
+
+/* Paragraph styling */
+p {
+    text-align: justify;
+    margin: var(--mb-2) 0;
+    font-family: var(--body-font);
+    font-size: large;
+    color: var(--second-color);
+    line-height: 1.6;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
 }
